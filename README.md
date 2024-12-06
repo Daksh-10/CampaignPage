@@ -5,14 +5,16 @@ A server which provides user to perform three tasks:-
   3. CRUD operations for Campaign-Results: User can add the information about the results of those campaigns.
 
 **Agents API:**
-  1. POST /api/agents/ - Create a new agent
-  2. GET /api/agents/ - List all agents (supports pagination)
-  3. GET /api/agents/{id}/ - Retrieve a single agent by ID
-  4. PUT /api/agents/{id}/ - Update an agent
-  5. DELETE /api/agents/{id}/ - Delete an agent
+  1. **POST** /api/agents/ - Create a new agent
+  2. **GET** /api/agents/ - List all agents (supports pagination)
+  3. **GET** /api/agents/{id}/ - Retrieve a single agent by ID
+  4. **PUT** /api/agents/{id}/ - Update an agent
+  5. **DELETE** /api/agents/{id}/ - Delete an agent
 
 **Campaigns API:**
     Similar to agents, using ```/api/campaigns/```.
     
 **Campaign Results API:**
     Similar to agents, using ```/api/campaign-results/```.
+
+The server uses **PostgreSQL Database Server** to store the data.
