@@ -10,7 +10,7 @@ a. Agents API:
   3. GET /api/agents/{id}/ - Retrieve a single agent by ID
   4. PUT /api/agents/{id}/ - Update an agent
   5. DELETE /api/agents/{id}/ - Delete an agent
-b.  Campaigns API:
+b. Campaigns API:
     Similar to agents, using ```/api/campaigns/```.
-c.  Campaign Results API:
+c. Campaign Results API:
     Similar to agents, using ```/api/campaign-results/```.
